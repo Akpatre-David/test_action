@@ -1,13 +1,13 @@
-name: "welocme"
+name: "welcome"
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+      - master
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: "welcome"
-              run: |
-               echo "welcome"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "welcome"
+        run: |
+          echo "welcome"
